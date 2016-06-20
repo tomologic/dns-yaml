@@ -1,0 +1,9 @@
+hosts:
+    host1:
+        ip: 192.0.2.1
+
+    host2:
+        ip: 192.0.2.3
+
+    web:
+        cname: host1.example.com
