@@ -18,7 +18,7 @@ def generate_dns_line_from_record(record, value):
     if ip:
         target = "A {}".format(ip)
     elif cname:
-        target = "CNAME {}".format(cname)
+        target = "CNAME {}.".format(cname)
     else:
         # Empty string is safer than printing None
         return ""
